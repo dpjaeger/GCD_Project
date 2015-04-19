@@ -5,7 +5,16 @@ The code is contained in the run_analysis.R file.
 
 Ensure that the UCI HAR Dataset is loaded and unaltered in your working directory.  Preserve the original directory structure once the file is unzipped.  In your working directory, there should be a directory called "UCI HAR Dataset" that contains all the folders and files in the original download.  This code will reference the features.txt file and the TRAIN/TEST folders contained in the dataset.
 
-Data dictionary:
+The code uses the following steps:
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Further description of specific actions are available in the code itself.
+
+Data dictionary (for output dataframe, data_summ):
 
 1.	activity	The activity performed during measurement
 2.	subject	The subject ID, numbered 1-30, each number corresponding to a unique volunteer
