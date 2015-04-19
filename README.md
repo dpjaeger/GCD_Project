@@ -8,8 +8,11 @@ Ensure that the UCI HAR Dataset is loaded and unaltered in your working director
 Data dictionary:
 
 1	activity	The activity performed during measurement
+
 2	subject	The subject ID, numbered 1-30, each number corresponding to a unique volunteer
-Next, we have the mean and standard deviation of various measurements:		
+
+Next, we have the mean and standard deviation of various measurements:
+
 3	tBodyAcc_mean_X	
 4	tBodyAcc_mean_Y	
 5	tBodyAcc_mean_Z	
